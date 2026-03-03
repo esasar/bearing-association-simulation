@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bearing Simulation</title>
+</head>
+<body>
+<script type="module">
+    // Import the generated Wasm module
+    import init, { run_simulation_wasm } from './pkg/your_project_name.js';
+
+    async function run() {
+        // Initialize the Wasm module
+        await init();
+
+        // Call the Rust function
+        const result = run_simulation_wasm();
+        console.log(`Correct: ${result.correct}, Runtime: ${result.runtime}ns`);
+    }
+
+    run();
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/target
+/.venv
+/.idea
+Cargo.lock
+/images
+/old
+*/.ipynb_checkpoints
