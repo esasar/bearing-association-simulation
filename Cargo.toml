@@ -1,0 +1,18 @@
+[package]
+name = "bearing_simulation"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "bearing_simulation"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.28.2", features = ["extension-module"] }
+pathfinding = "4.15.0"
+ordered-float = "5.1.0"
+rand = "0.10.0"
+rand_distr = "0.6.0"
+num-traits = "0.2.19"
+rayon = "1.11.0"
+itertools = "0.14.0"
