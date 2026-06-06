@@ -1,4 +1,7 @@
-Create python virual environment and install dependencies.
+ML-LAP-assignment problem solver and MC-simulation.
+Python notebook for visualization.
+
+Create python virtual environment and install dependencies.
 ```
 python -m venv .venv
 .\.venv\Scripts\activate
