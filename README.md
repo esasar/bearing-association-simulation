@@ -1,6 +1,8 @@
 ML-LAP-assignment problem solver and MC-simulation.
 Python notebook for visualization.
 
+Interactive version: https://esasar.github.io/bass/
+
 Create python virtual environment and install dependencies.
 ```
 python -m venv .venv
